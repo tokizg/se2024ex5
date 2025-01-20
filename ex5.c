@@ -2,6 +2,8 @@
 
 void main(void)
 {
-  char str[] = "hello world!";
+  char str[] = "";
+  printf("Enter a string: ");
+  scanf("%s", str);
   printf("%s\n", str);
 }
